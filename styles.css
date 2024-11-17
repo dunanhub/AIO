@@ -1,0 +1,118 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  header {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+  }
+  
+  .highlight {
+    color: #ff5722;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 15px;
+  }
+  
+  h2 {
+    color: #444;
+  }
+  
+  .accordion {
+    margin-top: 10px;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .accordion-item {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .accordion-header {
+    background: #f1f1f1;
+    border: none;
+    padding: 15px;
+    text-align: left;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .accordion-header:hover {
+    background: #ddd;
+  }
+  
+  .accordion-content {
+    display: none;
+    padding: 15px;
+    background: #fff;
+    border-top: 1px solid #ddd;
+  }
+  
+  a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+
+  /* Центрируем контейнер */
+main {
+    max-width: 800px; /* Устанавливаем фиксированную ширину */
+    margin: 0 auto; /* Центрируем по горизонтали */
+    padding: 20px;
+  }
+  
+  /* Добавляем стили для боксов */
+  .accordion {
+    margin-top: 20px;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Более заметная тень */
+  }
+  
+  .accordion-item {
+    border-bottom: 1px solid #ddd;
+    overflow: hidden; /* Предотвращаем "вылезание" содержимого */
+  }
+  
+  /* Стиль заголовков */
+  .accordion-header {
+    background: #f7f7f7; /* Светло-серый фон */
+    color: #333;
+    border: none;
+    font-weight: bold;
+    text-align: left;
+    padding: 15px;
+    width: 100%; /* Занимает всю ширину */
+    cursor: pointer;
+  }
+  
+  /* Убедимся, что контент внутри не "вылезает" */
+  .accordion-content {
+    padding: 15px;
+    display: none;
+    background: #fff;
+  }
+  
